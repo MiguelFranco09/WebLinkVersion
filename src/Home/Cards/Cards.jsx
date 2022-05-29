@@ -16,7 +16,7 @@ function Card({title, image, link}){
                                 <div className="effecthover_card">
                                 </div>
                                     <h3 className="title_card">{title}</h3>
-                                    <a href={link} target="_blank">
+                                    <a href={link} target="_blank" rel="noreferrer">
                                         <div className="button_link_card">
                                             <h3>Link</h3>
                                         </div>
