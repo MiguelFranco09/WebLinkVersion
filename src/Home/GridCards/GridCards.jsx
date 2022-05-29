@@ -104,11 +104,13 @@ const content_card = [
 
 function GridCards(){
     return(
-        <div className="container_gridcards">
+      <>  <div className="container_gridcards">
             <div className="gridcards">
                    {content_card.map ( c => <Card title={c.name} image={c.image} link={c.link}  /> )} 
             </div>
         </div>
+        
+       </>
     );
 }
 
