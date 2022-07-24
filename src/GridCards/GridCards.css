@@ -1,0 +1,55 @@
+.container_gridcards{
+    width: 100vw ;
+    height: calc(100vh - 90px);
+    text-align: center;  
+    background-color: #1e1d1d;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+
+.container_gridcards::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.container_gridcards::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.container_gridcards::-webkit-scrollbar-button:increment,.container_gridcards::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.container_gridcards::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.container_gridcards::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+}
+
+.container_gridcards::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+
+
+
+
+
+
+.gridcards{
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+@media only screen and (max-width: 600px) , (max-width: 1600px) , (max-width: 3200px){
+    .gridcards{
+        text-align: center;
+        justify-content: center;
+    }    
+}

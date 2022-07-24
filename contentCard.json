@@ -1,8 +1,4 @@
-import React from "react";
-import "./GridCards.css"
-import Card from "../Cards/Cards";
-
-const content_card = [
+[
     {
         "name" : "Curso Definitivo de Html y Css - Platzi",
         "image" : "https://descargasmegatotal.com/wp-content/uploads/2021/03/Curso-Definitivo-de-HTML-y-CSS.jpg",
@@ -100,20 +96,3 @@ const content_card = [
     },
     
 ]
-
-
-function GridCards(){
-    return(
-      <>  <div className="container_gridcards">
-            <div className="gridcards">
-                   {content_card.map ( c => <Card title={c.name} image={c.image} link={c.link}  /> )} 
-            </div>
-        </div>
-        
-       </>
-    );
-}
-
-export default GridCards
-
-
