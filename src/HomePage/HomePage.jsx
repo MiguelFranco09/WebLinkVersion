@@ -10,6 +10,7 @@ function Home(){
         <>
         <div className="Container">
             <div className="logo"><Logo /></div>
+      
             <div  className="Icons-div center-box">
             <Alerta />
             <GridCards />
