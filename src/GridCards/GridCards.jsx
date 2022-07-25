@@ -4,6 +4,16 @@ import Card from "../Cards/Cards";
 
 const content_card = [
     {
+        "name" : "Adobe After Effects para animación de personajes - Domestika",
+        "image" : "https://cdn.domestika.org/c_fill,dpr_auto,f_auto,pg_1,t_base_params/v1608224744/course-covers/000/001/571/1571-original.jpg?1608224744",
+        "link" : "https://www.mediafire.com/file/si96rifs5biie4l/Adobe_After_Effects_para_animaci%25C3%25B3n_de_personajes.txt/file"
+    },
+    {
+        "name" : "Linkedin - Contruye tu marca personal - Domestika",
+        "image" : "https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_674,pg_1,t_base_params,w_1200/v1561111943/course-covers/000/000/672/672-original.jpg?1561111943",
+        "link" : "https://www.mediafire.com/file/5aipjg27086sioo/LinKedIn-_Contruye_tu_marca_personal.txt/file"
+    },
+    {
         "name" : "Animacion motion graphics con after effects - domestika",
         "image" : "https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_152,pg_1,t_base_params,w_270/v1591197277/course-covers/000/000/088/88-original.jpg?1591197277",
         "link" : "https://www.mediafire.com/file/t3ev59g0wz4ymaa/3D_max_Cortometrajes_animados_en_3D_para_redes_sociales.txt/file"
